@@ -699,5 +699,6 @@
     });
 </script>
 <script src="{{asset('trek/js/navbarandslider.js')}}"></script>
+<script src="{{asset('trek/js/scrollreveal.min.js')}}"></script>
 </body>
 </html>
