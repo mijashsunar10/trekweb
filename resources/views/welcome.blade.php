@@ -30,7 +30,7 @@
     </head>
    <body>
 
-    <header class="header">
+    <header class="header ">
       <div class="container">
           <div class="logo">
               <img src="{{asset('trek/images/logo.png')}}" height="50px" width="50px" alt="logo">
@@ -144,11 +144,11 @@
       <video class="video-slide active" src="../aaaaa/video/12750575_1920_1080_25fps.mp4" autoplay muted loop></video>
   </section> -->
   
-  <section class="hero">
+  <section class="hero ">
       
           <video class="video-slide" src="{{asset('trek/video/12750575_1920_1080_25fps.mp4')}}" autoplay muted loop></video>
   
-          <div class="content active">
+          <div class="content active home__data">
               <h1>Wonderful. <br> <span>Nepal</span></h1>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt illum impedit incidunt, quaerat enim aperiam quam dolore minus animi maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique porro corporis laudantium officia rerum commodi nobis sint ex sit reiciendis veniam fuga minima incidunt architecto suscipit excepturi recusandae earum quasi enim, at dignissimos possimus nihil laboriosam? Corporis vitae, nemo nihil sequi dignissimos ad. Voluptas fugit expedita nesciunt saepe, vel maxime?</p>
           <a href="">Read More</a>
@@ -168,7 +168,7 @@
           </div>
       </section>    
   </section>
-  <section>
+  <section class="">
         <section class="bg-gray-100 py-10">
 
             <!-- Main Container -->
@@ -183,7 +183,7 @@
                     <!-- Card Wrapper -->
                     <div id="carousel" class="flex overflow-x-auto space-x-6 scrollbar-hide snap-x snap-mandatory scroll-smooth px-4 transition-all duration-700">
                         <!-- Card 1 -->
-                        <div class="w-full sm:w-1/3 flex-shrink-0 snap-center transition-transform duration-700 ease-in-out transform hover:scale-105">
+                        <div class="w-full sm:w-1/3 flex-shrink-0 snap-center transition-transform duration-700 ease-in-out transform hover:scale-105 service_card1 ">
                             <div class="overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl">
                                 <img src="{{asset('trek/images/image copy.png')}}" alt="Trek Image"
                                     class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110">
@@ -201,7 +201,7 @@
                         </div>
             
                         <!-- Card 2 -->
-                        <div class="w-full sm:w-1/3 flex-shrink-0 snap-center">
+                        <div class=" service_card1 w-full sm:w-1/3 flex-shrink-0 snap-center">
                             <div class="overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform transition-transform duration-300">
                                 <img src="{{asset('trek/images/image copy 3.png')}}" alt="Trek Image"
                                     class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110">
@@ -219,7 +219,7 @@
                         </div>
             
                         <!-- Card 3 -->
-                        <div class="w-full sm:w-1/3 flex-shrink-0 snap-center">
+                        <div class=" service_card1 w-full sm:w-1/3 flex-shrink-0 snap-center">
                             <div class="overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform transition-transform duration-300">
                                 <img src="{{asset('trek/images/image copy 2.png')}}" alt="Trek Image"
                                     class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110">
@@ -335,7 +335,7 @@
 </section>
 
 
-<section>
+<section class="service_card">
     <section class="bg-gray-100">
 
         <!-- Main Container -->
@@ -519,7 +519,7 @@
     
 </section>
 
-<section class="bg-gray-100">
+<section class="bg-gray-100 service_card">
 
     <!-- Main Container -->
     <div class=" mx-auto px-4 py-10 relative-[88%]" style="width: 90%">
@@ -700,5 +700,23 @@
 </script>
 <script src="{{asset('trek/js/navbarandslider.js')}}"></script>
 <script src="{{asset('trek/js/scrollreveal.min.js')}}"></script>
+
+
+{{-- scroll reveal animation --}}
+ <script>
+    const sr= ScrollReveal({
+        origin: 'top',
+        distance: '60px',
+        duration: 2500,
+        delay:300,
+        reset:true
+    })
+    
+    // sr.reveal(`.home__data`)
+    sr.reveal(`.home__data`,{delay:300,scale:0.5})
+    sr.reveal(`.service_card1`,{interval:100 })
+    sr.reveal(`.service_card`)
+
+ </script>
 </body>
 </html>
