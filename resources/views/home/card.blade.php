@@ -17,89 +17,130 @@
                 <!-- Card Wrapper -->
                 <div id="carousel" class="flex overflow-x-auto space-x-6 scrollbar-hide snap-x snap-mandatory scroll-smooth px-4 transition-all duration-700">
                     <!-- Card 1 -->
-                  <div class=" service_card1 w-full lg:w-1/3 xmd:w-1/2  flex-shrink-0 snap-center">
                     
+                  <div class=" service_card1 w-full lg:w-1/3 xmd:w-1/2  flex-shrink-0 snap-center">
+                    <a href="">
                         <div class="overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl">
                             <img src="{{asset('trek/images/image copy.png')}}" alt="Trek Image"
                                 class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110">
                             <div class="p-4">
                                 <h3 class="font-bold text-lg mb-2   text-[#66071E]">Annapurna Base Camp Trek</h3>
-                                <p class="text-[#1E293B] mb-4">Duration: 11 Days</p>
+                                <p class="text-[#1E293B] mb-2">Duration: 11 Days</p>
                                 <div class="flex items-center justify-between">
-                                    <span class="text-sky-700  font-bold">US $769</span>
+                                    <div class="flex flex-col gap-1">
+
+                                    
+                                    <span class="text-sky-700  font-bold">US $ 769</span>
+                                    <span class="text-sky-700  font-bold">NRP 10000</span>
+ 
+                                        </div>
                                     <span class="text-yellow-400 flex">
                                         &#9733; &#9733; &#9733; &#9733; &#9733; (7 reviews)
                                     </span>
                                 </div>
                             </div>
                         </div>
+                        </a>
                    
                         </div>
         
                     <!-- Card 2 -->
-                    <div class=" service_card1 w-full lg:w-1/3 xmd:w-1/2 flex-shrink-0 snap-center">
+ 
+                 <div class=" service_card1 w-full lg:w-1/3 xmd:w-1/2 flex-shrink-0 snap-center">
+                    <a href="">   
                         <div class="overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform transition-transform duration-300">
                             <img src="{{asset('trek/images/image copy 3.png')}}" alt="Trek Image"
                                 class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110">
                             <div class="p-4">
                                 <h3 class="font-bold text-lg mb-2 text-[#66071E]">Annapurna Circuit Trek</h3>
-                                <p class="text-[#1E293B]  mb-4">Duration: 9 Days</p>
+                                <p class="text-[#1E293B]  mb-2">Duration: 9 Days</p>
                                 <div class="flex items-center justify-between">
+                                    <div class="flex flex-col gap-21>
+
+                                    
                                     <span class="text-sky-700 font-bold">US $499</span>
+                                    <sppan class="text-sky-700 font-bold">USNRP 10000</sppan>
+  
+                                        </div>
                                     <span class="text-yellow-400 flex">
                                         &#9733; &#9733; &#9733; &#9733; &#9733; (1 review)
                                     </span>
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
         
                     <!-- Card 3 -->
-                    <div class=" service_card1 w-full sm:w-1/3 flex-shrink-0 snap-center">
+ 
+                   <div class=" service_card1 w-full lg:w-1/3 xmd:w-1/2  flex-shrink-0 snap-center">
+                    <a href=""> 
                         <div class="overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform transition-transform duration-300">
                             <img src="{{asset('trek/images/image copy 2.png')}}" alt="Trek Image"
                                 class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110">
                             <div class="p-4">
                                 <h3 class="font-bold text-lg mb-2 text-[#66071E]">Annapurna Sanctuary Trek</h3>
-                                <p class="text-[#1E293B] mb-4">Duration: 13 Days</p>
+                                <p class="text-[#1E293B] mb-2">Duration: 13 Days</p>
                                 <div class="flex items-center justify-between">
+                                    <div class="flex flex-col gap-1">
+
+                                    
                                     <span class="text-sky-700 font-bold">US $930</span>
+                                    <sppan class="text-sky-700 font-bold">USNRP 10000</sppan>
+  
+                                        </div>
                                     <span class="text-yellow-400 flex">
                                         &#9733; &#9733; &#9733; &#9733; &#9733; (6 reviews)
                                     </span>
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
         
                     <!-- Card 4 -->
-                    <div class="w-full sm:w-1/3 flex-shrink-0 snap-center">
+                    <div class="w-full lg:w-1/3 xmd:w-1/2  flex-shrink-0 snap-center">
+                        <a href="" class="">
                         <div class="overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform transition-transform duration-300">
                             <img src="https://via.placeholder.com/600x400" alt="Trek Image"
                                 class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110">
                             <div class="p-4">
                                 <h3 class="font-bold text-lg mb-2 text-[#66071E]">Everest Base Camp Trek</h3>
-                                <p class="text-[#1E293B] mb-4">Duration: 14 Days</p>
+                                <p class="text-[#1E293B] mb-2">Duration: 14 Days</p>
                                 <div class="flex items-center justify-between">
+                                    <div class="flex flex-col gap-1">
+
+                                    
                                     <span class="text-sky-700 font-bold">US $1200</span>
+                                    <span class="text-sky-700 font-bold">UNRP 10000</sp/span>
+ 
+                                        </div>
                                     <span class="text-yellow-400 flex">
                                         &#9733; &#9733; &#9733; &#9733; &#9733; (12 reviews)
                                     </span>
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
         
                     <!-- Card 5 -->
-                    <div class="w-full sm:w-1/3 flex-shrink-0 snap-center">
+                    <div class="w-full lg:w-1/3 xmd:w-1/2  flex-shrink-0 snap-center">
+                        <a href="">
                         <div class="overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transform transition-transform duration-300">
                             <img src="https://via.placeholder.com/600x400" alt="Trek Image"
                                 class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110">
                             <div class="p-4">
                                 <h3 class="font-bold text-lg mb-2 text-[#66071E]">Mardi Himal Trek</h3>
-                                <p class="text-[#1E293B] mb-4">Duration: 7 Days</p>
+                                <p class="text-[#1E293B] mb-2">Duration: 7 Days</p>
                                 <div class="flex items-center justify-between">
+                                    <div class="flex flex-col gap-1">
+
+                                    
                                     <span class="text-sky-700 font-bold">US $399</span>
+                                    <sppan class="text-sky-700 font-bold">USNRP 10000</sppan>
+  
+                                        </div>
                                     <span class="text-yellow-400 flex">
                                         &#9733; &#9733; &#9733; &#9733; &#9733; (9 reviews)
                                     </span>
@@ -107,6 +148,7 @@
                             </div>
                         </div>
                     </div>
+                </a>
                 </div>
         
                 <!-- Left and Right Arrows -->

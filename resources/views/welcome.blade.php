@@ -625,7 +625,12 @@
    <body>
 
 @include('home.header')
+
+
 @include('home.description')
+
+@include('home.mountain')
+@include('home.services')
 
 
 
