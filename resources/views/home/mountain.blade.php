@@ -27,7 +27,7 @@
             color: var(--black);
         }
 
-        * {
+        .section {
             font-size: inherit;
             font-family: 'TT Norms Pro Regular';
         }
@@ -76,7 +76,7 @@
         }
 
         :root {
-            --primary: #e1a74e;
+            --primary: #7d88ec;
             --secondary: #284182;
             --white: #fff;
             --light: #f7f7f7;
@@ -131,7 +131,7 @@
                     
                     <!-- for medium device -->
                     <div class=" visible@m">
-                        <h1 class="text-5xl mb-10 font-bold text-center text-[#CAA046] pt-4">Mountain Treks in Nepal</h1>
+                        <h1 class="text-5xl mb-10 font-bold text-center text-[#CAA046] pt-4">Mountain Peaks in Nepal</h1>
 
                         
                         <!-- svg code -->
@@ -330,7 +330,7 @@
 
 
                    
-        <a href="https://www.sevensummittreks.com/page/mt-annapurna-i-expedition-8091m.html" class="svg-link " id="annapurna">
+        <a href="{{route('main')}}" class="svg-link " id="annapurna">
                      
                      
                                     <path class="st13" d="M11729.9,1955.3l81.9-26.3l117.2-66.2l87-31l97-47c0,0,72.3-25.2,79.7-25.5c7.4-0.3,79.9-20.2,79.9-20.2
@@ -362,14 +362,14 @@
         </a>
 
                      <foreignObject x="11200" y="1100" width="2000" height="1000" class="hover-content">
-                        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#753f0e;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#7d88ec;">
                            <p>Mt.Annapurna Trek</p>
                            <p>8000M</p>
                            <span class="block w-[2px] h-6 bg-gray-400 m-1"></span>
                         </div>
                     </foreignObject>
 
-        <a href="https://www.sevensummittreks.com/page/mt-manaslu-expedition-8163m.html" class="svg-link" id="manaslu">
+        <a href="{{route('main')}}" class="svg-link" id="manaslu">
                     
                      
                                     <path class="st13" d="M12366.1,2431.4l-86-60.6l-79.3-55.9l-106.2-51.3l-60.5-38.8l-61.8-32.6l-59.1-45l-59.1-35.7l-8.1-20
@@ -485,14 +485,14 @@
         </a>
 
             <foreignObject x="10500" y="800" width="2000" height="1000" class="hover-content">
-                <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#753f0e;">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#7d88ec;">
                     <p>Mt.Kanchanjunga Trek</p>
                     <p>8000M</p>
                     <span class="block w-[2px] h-6 bg-gray-400 m-1"></span>
                 </div>
             </foreignObject>
 
-        <a href="https://www.sevensummittreks.com/page/mt-chooyu-expedition-8188m.html" class="svg-link">
+        <a href="{{route('main')}}" class="svg-link">
                                                     <g id="cho_oyu">
                                                         <g>
                                                         
@@ -548,13 +548,13 @@
         </a>
 
             <foreignObject x="9500" y="700" width="2000" height="1000" class="hover-content">
-                <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#753f0e;">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#7d88ec;">
                     <p>Mt.Cho Oyu Trek</p>
                     <p>8000M</p>
                     <span class="block w-[2px] h-6 bg-gray-400 m-1"></span>
                 </div>
             </foreignObject>
-        <a href="https://www.sevensummittreks.com/page/mt-lhotse-expedition-8516m.html" class="svg-link" id="lhotse">
+        <a href="{{route('main')}}" class="svg-link" id="lhotse">
                                                     
                                                     <path class="st13" d="M7233.1,1952.3h35.9c0,0,63.9-10.5,75.2-10.5c11.4,0,42.9-22.2,45.5-22.2c2.6,0,28-2.3,30.6-8.2
                                 c2.6-5.8,26.2-12.9,26.2-12.9s51.6-10.5,56-8.2c4.4,2.3,20.1-16.4,28-11.7c7.9,4.7,14,19.9,24.5,19.9c10.5,0,28.9,4.7,34.1,0
@@ -627,13 +627,13 @@
         </a>
 
             <foreignObject x="8200" y="550" width="2000" height="1000" class="hover-content">
-                <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#753f0e;">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#7d88ec;">
                     <p>Mt.Lhotse Trek</p>
                     <p>8000M</p>
                     <span class="block w-[2px] h-6 bg-gray-400 m-1"></span>
                 </div>
             </foreignObject>
-        <a href="https://www.sevensummittreks.com/page/mt-k2-expedition-8611m.html" class="svg-link">
+        <a href="{{route('main')}}" class="svg-link">
                                                     <g id="k2">
                                                         <g>
                                                         
@@ -704,13 +704,13 @@
                                                     </g>
         </a>
             <foreignObject x="7300" y="300" width="2000" height="1000" class="hover-content">
-                <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#753f0e;">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#7d88ec;">
                     <p>Mt.K2 Trek</p>
                     <p>8000M</p>
                     <span class="block w-[2px] h-6 bg-gray-400 m-1"></span>
                 </div>
             </foreignObject>
-            <a href="https://www.sevensummittreks.com/page/mt-everest-expedition-884886m-south.html" class="svg-link" id="everest">
+            <a href="{{route('main')}}" class="svg-link" id="everest">
                                                     
                                                     <path class="st13" d="M6711.5,1231.6l9.5-6.5c0,0,9.1-7.4,12.8-8.4c3.7-1.1,31.9-19,31.9-19s1-0.6,2.7-2.9
                                 c1.8-2.3,7.6-4.4,9.5-5.5c1.9-1.1,15-13.3,15.2-14.1c0.2-0.8,0.4-2.3,1.9-3.8c1.6-1.5,4.5-3.6,4.5-3.6l4.3-2.7l2.1-3l7.4-1
@@ -766,13 +766,13 @@
                                                     <path class="st14" d="M7398.1,829.4l5.4,7.8l6-1.3c0,0,3.4-0.5,3.9,1.3c0.5,1.8,1.6,6.8,1.6,6.8l3.9,8.1l1.2,4.5l2.7,2.5" /> </a>
 
                                                     <foreignObject x="6500" y="100" width="2000" height="1000" class="hover-content">
-                                                        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#753f0e;">
+                                                        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#7d88ec;">
                                                         <p>Mt.Everest Trek</p>
                                                         <p>8848M</p>
                                                         <span class="block w-[2px] h-6 bg-gray-400 m-1"></span>
                                                         </div>
                                                     </foreignObject>
-                                                <a href="https://www.sevensummittreks.com/page/mt-kangchenjunga-expedition-8586m.html" class="svg-link" id="kanchenjunga">
+                                                <a href="{{route('main')}}https://www.sevensummittreks.com/page/mt-kangchenjunga-expedition-8586m.html" class="svg-link" id="kanchenjunga">
                                                     <path class="st13" d="M5990.8,1463.6l42.3-46.7l28.3-28.9l23.7-17.2c0,0,9.8-14.2,11.1-15.2c1.4-1,17.2-1.5,18.6-5.1
                                 c1.4-3.5,13.5-15.2,13.5-15.2l25.5-13.2c0,0,9.3-19.8,16.3-21.3c7-1.5,36.7-19.3,36.7-19.3l27.9-19.3l18.6-11.2l14.9-17.2
                                 l12.5-5.1l9.3-15.2l10.7-14.2l14.9-21.8l13-7.6l14.4-15.7l10.2-15.7l7-7.6c0,0,10.2-6.6,10.2-8.1c0-1.5,6-14.2,6-14.2l15.5-6.8
@@ -853,13 +853,13 @@
             </a>
 
             <foreignObject x="5400" y="400" width="2000" height="1000" class="hover-content">
-                <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#753f0e;">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#7d88ec;">
                     <p>Mt.Kanchanjunga Trek</p>
                     <p>8000M</p>
                     <span class="block w-[2px] h-6 bg-gray-400 m-1"></span>
                 </div>
             </foreignObject>
-        <a href="https://www.sevensummittreks.com/page/mt-makalu-expedition-8485m.html" class="svg-link" id="makalu">
+        <a href="{{route('main')}}" class="svg-link" id="makalu">
                                                                 <path class="st13" d="M6871,2119.8l-50.2-11.3h-56.9l-11.1-21.3l-29-36.3l-12.3-18.8l-30.1-21.3l-32.3-42.6l-23.4-16.3h-31.2
                                 c-11.1,0-4.5,13.8-14.5,22.5c-10,8.8-22.3,0-22.3,0l-20.1-6.3v6.3c0,0-22.3,13.8-27.9,13.8c-5.6,0-13.4-22.5-13.4-27.5
                                 c0-5-24.5-31.3-24.5-31.3l-26.8-27.5l-24.5-23.8l-21.2-37.6l-34.6-35l-23.4-25l-29-32.5c0,0-25.6-16.3-29-18.8
@@ -901,14 +901,14 @@
                             
         </a>
             <foreignObject x="4700" y="600" width="2000" height="1000" class="hover-content">
-                <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#753f0e;">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#7d88ec;">
                     <p>Mt.Makalu Trek</p>
                     <p>8000M</p>
                     <span class="block w-[2px] h-6 bg-gray-400 m-1"></span>
                 </div>
             </foreignObject>
                                                 
-        <a href="https://www.sevensummittreks.com/page/mt-dhaulagiri-expedition-8167m.html" class="svg-link" id="dhaulagiri">
+        <a href="{{route('main')}}" class="svg-link" id="dhaulagiri">
                     
                                 <path class="st13" d="M3613.4,1918.4c4.9,0,19.4-11.2,24.3-8.4c4.8,2.8,30.7-9.4,30.7-9.4s18.6-15,28.3-15c9.7,0,34-9.4,46.9-12.2
             c12.9-2.8,39.6-27.2,44.5-28.1c4.8-0.9,24.3-8.4,24.3-8.4s8.9-15,18.6-19.7c9.7-4.7,23.4-9.4,25.9-10.3
@@ -987,13 +987,13 @@
                                 <path class="st14" d="M4095.4,1832c-5.2,52.1-50,67.3-56.9,84.6c-6.9,17.4,0-2.2-18.9,39.1c-19,41.2-37.9,82.5-37.9,82.5" />
         </a>
             <foreignObject x="3500" y="850" width="2000" height="1000" class="hover-content">
-                <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#753f0e;">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#7d88ec;">
                 <p>Mt.Dhaulagiri Trek</p>
                 <p>8000M</p>
                 <span class="block w-[2px] h-6 bg-gray-400 m-1"></span>
                 </div>
             </foreignObject>
-        <a href="https://www.sevensummittreks.com/page/mt-nanga-parbat-expedition-8125m.html" class="svg-link" id="nangaparbat">
+        <a href="{{route('main')}}" class="svg-link" id="nangaparbat">
                                     <path class="st13" d="M2620.4,1998.3c0,0,44.8-41.2,62-73.8c17.2-32.5,115.4-93.3,115.4-93.3l65.5-50.6l72.4-32.2
                 c0,0,24.1-4,25.8-4c1.7,0,33.3-26.8,33.3-26.8l27.6-30.4c0,0,54-36.9,56.8-42c2.9-5.1,30.4-30.4,30.4-30.4l29.3-31.8
                 c0,0,10.3-10.9,14.9-12.3c4.6-1.4,32.2,0,32.2,0s37.3,15.9,40.2,14.5c2.9-1.4,55.7,1.4,55.7,1.4s44.8,9.4,55.7,4.3
@@ -1054,7 +1054,7 @@
         </a>
                        
         <foreignObject x="2400" y="900" width="2000" height="1000" class="hover-content">
-                           <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#753f0e;">
+                           <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:150px; font-weight:900; text-align:center; color:#7d88ec;">
                               <p>Mt.Manasalu Trek</p>
                               <p>8000M</p>
                               <span class="block w-[2px] h-6 bg-gray-400 m-1"></span>

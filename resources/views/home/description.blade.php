@@ -4,9 +4,9 @@
     <div class="max-w-7xl mx-auto py-10 px-4">
       <!-- Section 1 -->
       {{-- <div class="flex flex-wrap lg:flex-nowrap bg-white shadow-md rounded-lg overflow-hidden mb-10"> --}}
-      <div class="flex flex-wrap lg:flex-nowrap bg-white shadow-md rounded-lg overflow-hidden ">
+      <div class=" flex flex-wrap lg:flex-nowrap bg-white shadow-md rounded-lg overflow-hidden ">
         <!-- Image -->
-        <div class="w-full lg:w-1/2 h-64 lg:h-auto overflow-hidden">
+        <div class="service_card1 w-full lg:w-1/2 h-64 lg:h-auto overflow-hidden">
           <img
             src="{{asset('trek/images/image.png')}}"
             alt="Annapurna Region"
@@ -14,7 +14,7 @@
           />
         </div>
         <!-- Content -->
-        <div class="w-full lg:w-1/2 p-6  ">
+        <div class="service_card1 w-full lg:w-1/2 p-6  ">
           <h2 class="text-2xl font-bold mb-2">Annapurna Region</h2>
           <hr class="h-1 bg-orange-500 w-full max-w-[25ch] mb-4" />
           <!-- <hr class="h-1 bg-orange-500 w-16 mb-4" /> -->
@@ -36,9 +36,9 @@
       </div>
   
       <!-- Section 2 -->
-      <div class="flex flex-wrap lg:flex-nowrap bg-white shadow-md rounded-lg overflow-hidden">
+      <div class=" flex flex-wrap lg:flex-nowrap bg-white shadow-md rounded-lg overflow-hidden">
         <!-- Content -->    
-        <div class="w-full lg:w-1/2 p-6 order-2 lg:order-1">
+        <div class=" service_card1 w-full lg:w-1/2 p-6 order-2 lg:order-1">
           <h2 class="text-2xl font-bold mb-2">Everest Region</h2>
           <hr class="h-1 bg-orange-500 w-full max-w-[25ch] mb-4" />
           <p class="text-gray-700 text-sm leading-relaxed mb-4">
@@ -57,7 +57,7 @@
           </div>
         </div>
         <!-- Image -->
-        <div class="w-full lg:w-1/2 h-64 lg:h-auto overflow-hidden order-1 lg:order-2">
+        <div class=" service_card1 w-full lg:w-1/2 h-64 lg:h-auto overflow-hidden order-1 lg:order-2">
           <img
             src="{{asset('trek/images/image.png')}}"
             alt="Everest Region"

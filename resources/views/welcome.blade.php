@@ -6,15 +6,9 @@
 
         <title>Laravel</title>
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-
-        <!-- Styles / Scripts -->
-      
-            @vite(['resources/css/app.css', 'resources/js/app.js'])
-            <link rel="stylesheet" href="{{asset('trek/css/navbarandslider.css')}}">
+        @include('layouts.header')
+           
+        <link rel="stylesheet" href="{{asset('trek/css/navbarandslider.css')}}">
 
             <style>
                 /* Custom scrollbar styles for hiding scrollbar */
@@ -29,7 +23,7 @@
 
               {{-- specialist --}}
               
-              <style>
+<style>
                 .about-block {
             padding: 97px 0 20px
                     }
@@ -112,7 +106,7 @@
             position: absolute;
             top: 9px;
             left: 0;
-            background-color: #66071e ;
+            background-color: #1f9dd9 ;
             opacity: .6
         }
         
@@ -482,7 +476,8 @@
              margin-right: 2rem;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
             border: #fff solid 5px;
-        }      
+        }  
+
         .small-image {
             position: relative;
             bottom: 00px;
@@ -583,7 +578,9 @@
          
         }
         }
-            </style>
+</style>
+
+            
 
 
         <style>
@@ -592,6 +589,9 @@
     align-items: center;
     gap: 10px; /* Adjust spacing between logo and name */
 }
+
+
+
 
 .logo-img {
     height: 60px;
@@ -613,64 +613,52 @@
 
             
         </style>
-
-{{-- rgb(102 7 30)  #66071E-- red}}
+       {{-- rgb(102 7 30)  #66071E-- red}}
 {{-- rgb(30 41 59)   #1E293B-- blue}}
 {{--#eeebeb  white --}}
-{{-- #66071e red --}}
+{{--    #66071e red --}}
 {{-- rgb(202 160 70) yeloow --}}
 {{-- brown #753f0e --}}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Bungee+Shade&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">  
        
     </head>
    <body>
+{{-- @include('home.nav')     --}}
+    {{-- @include('home.header') --}}
+    @include('home.header2')
 
-@include('home.header')
-
-
+@include('home.specialist')
+@include('home.smallphoto')
+@include('home.card')
+{{-- @include('home.mountain') --}}
 @include('home.description')
 
-@include('home.mountain')
-@include('home.services')
 
 
 
 
-  <section class="specialist bg-[#FDF7F4]">
 
 
 
-    <section class="about-block " style="overflow: hidden;">
 
-        <header class="about-block__heading">
-            <h1 class="about-block__title font-bold " style="color:rgb(102 7 30);">A Leading Himalayan <br>Trekking & Adventure Specialist</h1>
-            <h2 class="about-block__subtitle" style="color:rgb(102 7 30);">Nepal’s most trusted and multi-award-winning company</h2>
-        </header>
-        <div class="about-block__main"><span class="about-block__trekker"></span>
-            <div class="about-block__wrap">
-               
-                <div class="about-block__details">
-                    
-                    <div class="about-block__details">
-                        <div class="image-container">
-                            <img src="{{asset('trek/images/image.png')}}" alt="Main Image" class="main-image">
-                            <img src="{{asset('trek/images/image.png')}}" alt="Small Image" class="small-image">
-                        </div>
-                        <figure style="z-index: -1;">.</figure>
-                        
-                        <div class="about-block__content ">
-                            <div>
-                                <p>Discovery World Trekking is a Nepal government-registered trekking/expedition/tour company with over a decade of experience in eco-tourism. Our goal is to provide heart-warming hospitality in an exclusive private group
-                                    trek environment while letting you explore the stunning Nepali geography - from the world's deepest gorge (The Kali Gandaki Gorge) to the highest mountain (Mt. Everest).</p>
-                                <p><span data-preserver-spaces="true">We are quite </span><span data-preserver-spaces="true">successful in achieving our goal, as evidenced by the World Confederation of Businesses based in Houston, USA, awarding us the 2024 Business Excellence Certificate and Trip Advisor honoring us with Certificates of Excellence for the last twelve consecutive years.</span></p>
-                            </div><button type="button" class="link link--white open-more" style="opacity:1;cursor:pointer">+ More About Us</button></div>
-                    </div>
-                   
-            </div>
-        </div>
-    </section>
-</section>
 
-@include('home.card')
+
+{{-- @include('home.services') --}}
+
+@include('home.testimonial')
+
+@include('home.footer')
+
+
+
+
+ 
+
+
   
 {{-- 
 <section class="bg-[#FDF7F4] py-10">
@@ -975,7 +963,7 @@
     
 </section> --}}
 
-<section class="bg-gray-100 service_card">
+{{-- <section class="bg-gray-100 service_card">
 
     <!-- Main Container -->
     <div class="container mx-auto px-4 py-10 relative" style="width: 90%">
@@ -1105,8 +1093,8 @@
             </button>
         </div>
     </div>
-</section>
-
+</section> --}}
+{{-- 
 <!-- Scrollbar Hide CSS -->
 <style>
     .scrollbar-hide::-webkit-scrollbar {
@@ -1133,10 +1121,14 @@
             opacity: 1;
         }
     }
-</style>
+</style> --}}
+
+{{-- footer --}}
+
+
 
 <!-- JavaScript for Sliding -->
-<script>
+{{-- <script>
     const carousel = document.getElementById('carousel');
     const leftArrow = document.getElementById('leftArrow');
     const rightArrow = document.getElementById('rightArrow');
@@ -1153,8 +1145,8 @@
     leftArrow.addEventListener('click', () => {
         carousel.scrollBy({ left: -cardWidth, behavior: 'smooth' });
     });
-</script>
-<script src="{{asset('trek/js/navbarandslider.js')}}"></script>
+</script> --}}
+{{-- <script src="{{asset('trek/js/navbarandslider.js')}}"></script> --}}
 <script src="{{asset('trek/js/scrollreveal.min.js')}}"></script>
 
 
@@ -1184,5 +1176,3 @@
 </html>
 
 
-
-about-block__heading:before

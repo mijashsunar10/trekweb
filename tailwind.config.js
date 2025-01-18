@@ -7,7 +7,8 @@ export default {
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
-        './node_modules/flowbite/**/*.js'
+        './node_modules/flowbite/**/*.js',
+        
     ],
 
     theme: {
@@ -17,7 +18,8 @@ export default {
             },
             screens: {
 
-                'xs': '480px',          // Extra small devices
+                'xs': '480px',
+                'xsm':'576px',          // Extra small devices
                 'sm': '640px',  
                 'xmd': '680px',        // Small devices (default in Tailwind)
                 'md': '768px',          // Medium devices (default in Tailwind)
